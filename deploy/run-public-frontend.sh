@@ -3,7 +3,7 @@ set -e
 
 IMAGE_NAME="my-diary-frontend"
 CONTAINER_NAME="my-diary-frontend"
-BACKEND_HOST="10.1.2.6"
+BACKEND_HOST="${BACKEND_HOST:-10.10.2.6}"
 
 cd "$(dirname "$0")/.."
 
