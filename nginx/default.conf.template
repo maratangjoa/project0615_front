@@ -13,7 +13,7 @@ server {
     location /frontend-info{
 
         #응답형태를 json으로 
-        default_type application json
+        default_type application json;
 
         #응답결과 설정
         return 200 '{"type":"frontend","hostname":"${FRONTEND-NAME}"}';
