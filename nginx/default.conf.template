@@ -16,7 +16,7 @@ server {
         default_type application/json;
 
         #응답결과 설정
-        return 200 '{"type":"frontend","hostname":"${FRONTEND-NAME}"}';
+        return 200 '{"type":"frontend","hostname":"${FRONTEND_NAME}"}';
     }
 
     location /api/ {
